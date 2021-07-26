@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bg-image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+.container {
+    width: 350px;
+    margin: 6% auto;
+    background-color: #fff;
+    padding: 3rem;
+    box-shadow: 0 0 10px 0 black;
+    border-radius: 10px;
+
+}
+
+.container h1 {
+    color: steelblue;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+
+.input-box {
+    width: 100%;
+    padding: 13px 2px;
+    outline: none;
+    border-radius: 20px;
+    margin: 15px 0;
+    text-align: center;
+    font-size: 17px;
+    border: 2px solid black;
+
+}
+
+::placeholder {
+    color: black;
+    opacity: 0.6;
+}
+
+button {
+    width: 100%;
+    padding: 10px 2px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 1.2rem;
+}
+
+hr {
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+.input-em {
+    margin: 10px auto 5px;
+}
+
+.or {
+    width: 30px;
+    background-color: #fff;
+    margin: -30px auto 10px;
+
+}
+
+
+
+@media (max-width:789px) {
+    .container {
+        width: 50%;
+
+    }
+
+    .container h1 {
+        font-size: 1.5rem;
+    }
+
+    .input-box {
+        padding: 10px 0;
+
+    }
+
+
+}
